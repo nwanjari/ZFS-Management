@@ -1,0 +1,9 @@
+{
+    "app_id":           "299792464",
+    "app_name":         "ZFS-Management",
+    "Description":      "Manage File System and Physical Disks",
+    "LongDescription":  "Manage File System and Physical Disks",
+    "Version":          "1.0.0",
+    "Author":           "Neha Wanjari",
+    "email":            "nwanjari@tamu.edu"
+}
