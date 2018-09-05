@@ -129,7 +129,82 @@ class admin_model {
 		} 
 	}
 
+	public function listallZpoolJBOD() {
+		try {
+			$stmt = $this->db->prepare('SELECT zp_name, jb.jb_id, location_id 
+										FROM SN_ADMIN_ZFS_JBOD_ZPool jbzp, SN_ADMIN_ZFS_JBOD jb 
+										WHERE jbzp.jb_id = jb.jb_id ORDER BY zp_name');
+			$stmt->execute();
+			return $stmt->fetchAll();
+		}
+		catch (PDOException $e) {
+			die(err_fce("ERROR CODE : " . $e->getMessage()));
+		} 
+	}
 
+	public function getJBODandLocation($zpoolName) {
+		if ($zpoolName ==null) return false;
+		try {
+			$stmt = $this->db->prepare('SELECT jb.jb_id, jb.location_id, building_name, room_number, rack_number, contact_person, contact_number 
+										 FROM SN_ADMIN_ZFS_JBOD jb, SN_ADMIN_ZFS_Location lc 
+										 WHERE jb.location_id = lc.location_id 
+										 AND jb.jb_id IN (SELECT jb_id FROM SN_ADMIN_ZFS_JBOD_ZPool 
+										 				  WHERE zp_name =:zpoolName)');
+			$parms = ['zpoolName' => $zpoolName ];
+			$stmt->execute($parms);
+			return $stmt->fetchAll();
+		}
+		catch (PDOException $e) {
+			die(err_fce("ERROR CODE : " . $e->getMessage()));
+		}
+	}
+
+	public function getZpoolDetails($zpoolName) {
+		if ($zpoolName ==null) return false;
+		try {
+			$stmt = $this->db->prepare('SELECT * FROM SN_ADMIN_ZFS_ZPool
+										 WHERE zp_name = :zpoolName');
+			$parms = ['zpoolName' => $zpoolName ];
+			$stmt->execute($parms);
+			return $stmt->fetch();
+		}
+		catch (PDOException $e) {
+			die(err_fce("ERROR CODE : " . $e->getMessage()));
+		}
+	}
+
+	public function getZfsDataset($zpoolName) {
+		if ($zpoolName ==null) return false;
+		try {
+			$stmt = $this->db->prepare('SELECT * FROM SN_ADMIN_ZFS_DataSet
+										 WHERE zp_name = :zpoolName');
+			$parms = ['zpoolName' => $zpoolName ];
+			$stmt->execute($parms);
+			return $stmt->fetchAll();
+		}
+		catch (PDOException $e) {
+			die(err_fce("ERROR CODE : " . $e->getMessage()));
+		}
+	}
+
+	public function getZpoolPhysicalDisk($zpoolName) {
+		if ($zpoolName ==null) return false;
+		try {
+			$stmt = $this->db->prepare('SELECT  pd.vd_id, pd_gpt_id 
+										 FROM SN_ADMIN_ZFS_Physical_Disk pd, SN_ADMIN_ZFS_VDev vd 
+										 WHERE pd.vd_id = vd.vd_id 
+										 AND vd.vd_id IN (SELECT vd_id FROM SN_ADMIN_ZFS_VDev 
+										 				  WHERE zp_name =:zpoolName) 
+										 ORDER BY vd.vd_id, pd_gpt_id');
+			$parms = ['zpoolName' => $zpoolName ];
+			$stmt->execute($parms);
+			return $stmt->fetchAll();
+		}
+		catch (PDOException $e) {
+			die(err_fce("ERROR CODE : " . $e->getMessage()));
+		}
+	}
+	
 
 }
 ?>

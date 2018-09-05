@@ -48,6 +48,13 @@ require_once($_SERVER["DOCUMENT_ROOT"].'/sn-admin/menu/build.php');
  </div>
  </div>
 
+  <div class="card">
+ <div class="card-body">
+  <h4 class="card-title"><a class="maroon" href ="view/list-zpool.php"><i class="fa fa-object-ungroup" aria-hidden="true"></i> ZPool Details</a></h4>
+  <p class="card-text"> See ZPool Details.</p>
+ </div>
+ </div>
+
 </div>
 </div>
 
