@@ -26,7 +26,8 @@ class admin_model {
 		}		
     }
 
-    public function getAllLocations() {
+	# Get all physical loactions available
+	public function getAllLocations() {
         try {
             $stmt = $this->db->prepare('SELECT * from SN_ADMIN_ZFS_Location');
             $stmt->execute();
@@ -37,6 +38,7 @@ class admin_model {
 		}
 	}
 
+	# Add new physical location
 	public function addNewLocation($locationID, $buildingName, $roomNumber, $rackNumber, $contactPerson, $contactNumber) {
 		if ($locationID == null) return false;
 		if ($buildingName == null) return false;
@@ -62,6 +64,7 @@ class admin_model {
 		} 
 	}
 
+	# Delete the physical location entry with given Location ID
 	public function deleteLocation($locationID) {
 		if ($locationID == null) return false;
 		try {
@@ -75,6 +78,7 @@ class admin_model {
 		} 
 	}
 	
+	# Get all the physical disks available with all details
 	public function getAllPhysicalDisks() {
         try {
             $stmt = $this->db->prepare('SELECT * from SN_ADMIN_ZFS_Physical_Disk');
@@ -86,6 +90,7 @@ class admin_model {
 		}
 	}
 
+	# Add new physical disk to database
 	public function addNewPhysicalDisk($pdGptID, $pdDiskID, $pdSize, $pdMake, $pdModel, $pdType, $pdPurchaseDate, $pdStatus,$vdevid) {
 		if ($pdGptID == null) return false;
 		if ($pdDiskID == null) return false;
@@ -116,6 +121,7 @@ class admin_model {
 		} 
 	}
 
+	# Delete a physical disk entry with given Disk GPT ID
 	public function deletePhysicalDisk($pdGptID) {
 		if ($pdGptID == null) return false;
 		try {
@@ -129,6 +135,7 @@ class admin_model {
 		} 
 	}
 
+	# Get details of all Zpools with their JBOD details
 	public function listallZpoolJBOD() {
 		try {
 			$stmt = $this->db->prepare('SELECT zp_name, jb.jb_id, location_id 
@@ -142,6 +149,7 @@ class admin_model {
 		} 
 	}
 
+	# Get JBOD and loaction details of a given Zpool
 	public function getJBODandLocation($zpoolName) {
 		if ($zpoolName ==null) return false;
 		try {
@@ -159,6 +167,7 @@ class admin_model {
 		}
 	}
 
+	# Get all properties of a given Zpool
 	public function getZpoolDetails($zpoolName) {
 		if ($zpoolName ==null) return false;
 		try {
@@ -173,6 +182,7 @@ class admin_model {
 		}
 	}
 
+	# Get all the ZFS Datasets for a given Zpool
 	public function getZfsDataset($zpoolName) {
 		if ($zpoolName ==null) return false;
 		try {
@@ -187,10 +197,11 @@ class admin_model {
 		}
 	}
 
+	# Get the Vdevs and Physical Disks of a given Zpool
 	public function getZpoolPhysicalDisk($zpoolName) {
 		if ($zpoolName ==null) return false;
 		try {
-			$stmt = $this->db->prepare('SELECT  pd.vd_id, pd_gpt_id 
+			$stmt = $this->db->prepare('SELECT  vd_name, pd_gpt_id 
 										 FROM SN_ADMIN_ZFS_Physical_Disk pd, SN_ADMIN_ZFS_VDev vd 
 										 WHERE pd.vd_id = vd.vd_id 
 										 AND vd.vd_id IN (SELECT vd_id FROM SN_ADMIN_ZFS_VDev 
@@ -204,7 +215,21 @@ class admin_model {
 			die(err_fce("ERROR CODE : " . $e->getMessage()));
 		}
 	}
-	
 
+	# Get complete details of a given Physical Disk 
+	public function getPhysicalDiskDetails($gptid) {
+		if ($gptid ==null) return false;
+		try {
+			$stmt = $this->db->prepare('SELECT  * FROM SN_ADMIN_ZFS_Physical_Disk 
+										 WHERE pd_gpt_id = :gptid');
+			$parms = ['gptid' => $gptid ];
+			$stmt->execute($parms);
+			return $stmt->fetch();
+		}
+		catch (PDOException $e) {
+			die(err_fce("ERROR CODE : " . $e->getMessage()));
+		}
+	}
+	
 }
 ?>

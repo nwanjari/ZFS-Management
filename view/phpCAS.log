@@ -1782,3 +1782,971 @@ A144 .|    <= ''
 A144 .<= ''
 A144 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
 A144 .<= ''
+0659 .START (2018-09-06 02:00:50) phpCAS-1.3.5 ****************** [CAS.php:468]
+0659 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+0659 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+0659 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+0659 .|    <= ''
+0659 .<= ''
+0659 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+0659 .<= ''
+8E89 .START (2018-09-06 02:01:10) phpCAS-1.3.5 ****************** [CAS.php:468]
+8E89 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+8E89 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+8E89 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+8E89 .|    <= ''
+8E89 .<= ''
+8E89 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+8E89 .<= ''
+E653 .START (2018-09-06 02:01:13) phpCAS-1.3.5 ****************** [CAS.php:468]
+E653 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+E653 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+E653 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+E653 .|    <= ''
+E653 .<= ''
+E653 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+E653 .<= ''
+E323 .START (2018-09-06 02:06:03) phpCAS-1.3.5 ****************** [CAS.php:468]
+E323 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+E323 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+E323 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+E323 .|    <= ''
+E323 .<= ''
+E323 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+E323 .<= ''
+E332 .START (2018-09-06 02:06:42) phpCAS-1.3.5 ****************** [CAS.php:468]
+E332 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+E332 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+E332 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+E332 .|    <= ''
+E332 .<= ''
+E332 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+E332 .<= ''
+0110 .START (2018-09-06 02:07:45) phpCAS-1.3.5 ****************** [CAS.php:468]
+0110 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+0110 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+0110 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+0110 .|    <= ''
+0110 .<= ''
+0110 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+0110 .<= ''
+F04D .START (2018-09-06 02:08:49) phpCAS-1.3.5 ****************** [CAS.php:468]
+F04D .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+F04D .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+F04D .|    |    Session is authenticated as: nwanjari [Client.php:936]
+F04D .|    <= ''
+F04D .<= ''
+F04D .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+F04D .<= ''
+478E .START (2018-09-06 02:09:51) phpCAS-1.3.5 ****************** [CAS.php:468]
+478E .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+478E .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+478E .|    |    Session is authenticated as: nwanjari [Client.php:936]
+478E .|    <= ''
+478E .<= ''
+478E .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+478E .<= ''
+49F5 .START (2018-09-06 02:10:55) phpCAS-1.3.5 ****************** [CAS.php:468]
+49F5 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+49F5 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+49F5 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+49F5 .|    <= ''
+49F5 .<= ''
+49F5 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+49F5 .<= ''
+48E9 .START (2018-09-06 02:11:16) phpCAS-1.3.5 ****************** [CAS.php:468]
+48E9 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+48E9 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+48E9 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+48E9 .|    <= ''
+48E9 .<= ''
+48E9 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+48E9 .<= ''
+AB2C .START (2018-09-06 02:14:10) phpCAS-1.3.5 ****************** [CAS.php:468]
+AB2C .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+AB2C .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+AB2C .|    |    Session is authenticated as: nwanjari [Client.php:936]
+AB2C .|    <= ''
+AB2C .<= ''
+AB2C .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+AB2C .<= ''
+8AB4 .START (2018-09-06 02:16:35) phpCAS-1.3.5 ****************** [CAS.php:468]
+8AB4 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+8AB4 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+8AB4 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+8AB4 .|    <= ''
+8AB4 .<= ''
+8AB4 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+8AB4 .<= ''
+0B0F .START (2018-09-06 02:16:51) phpCAS-1.3.5 ****************** [CAS.php:468]
+0B0F .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+0B0F .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+0B0F .|    |    Session is authenticated as: nwanjari [Client.php:936]
+0B0F .|    <= ''
+0B0F .<= ''
+0B0F .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+0B0F .<= ''
+E6B3 .START (2018-09-06 02:42:35) phpCAS-1.3.5 ****************** [CAS.php:468]
+E6B3 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+E6B3 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+E6B3 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+E6B3 .|    <= ''
+E6B3 .<= ''
+E6B3 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+E6B3 .<= ''
+9833 .START (2018-09-06 02:42:47) phpCAS-1.3.5 ****************** [CAS.php:468]
+9833 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+9833 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+9833 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+9833 .|    <= ''
+9833 .<= ''
+9833 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+9833 .<= ''
+3BE7 .START (2018-09-06 02:42:50) phpCAS-1.3.5 ****************** [CAS.php:468]
+3BE7 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+3BE7 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+3BE7 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+3BE7 .|    <= ''
+3BE7 .<= ''
+3BE7 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+3BE7 .<= ''
+4D2B .START (2018-09-06 02:45:47) phpCAS-1.3.5 ****************** [CAS.php:468]
+4D2B .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+4D2B .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+4D2B .|    |    Session is authenticated as: nwanjari [Client.php:936]
+4D2B .|    <= ''
+4D2B .<= ''
+4D2B .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+4D2B .<= ''
+33F4 .START (2018-09-06 02:46:22) phpCAS-1.3.5 ****************** [CAS.php:468]
+33F4 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+33F4 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+33F4 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+33F4 .|    <= ''
+33F4 .<= ''
+33F4 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+33F4 .<= ''
+E3D1 .START (2018-09-06 02:47:25) phpCAS-1.3.5 ****************** [CAS.php:468]
+E3D1 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+E3D1 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+E3D1 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+E3D1 .|    <= ''
+E3D1 .<= ''
+E3D1 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+E3D1 .<= ''
+39C0 .START (2018-09-06 02:48:10) phpCAS-1.3.5 ****************** [CAS.php:468]
+39C0 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+39C0 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+39C0 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+39C0 .|    <= ''
+39C0 .<= ''
+39C0 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+39C0 .<= ''
+AFCA .START (2018-09-06 02:49:05) phpCAS-1.3.5 ****************** [CAS.php:468]
+AFCA .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+AFCA .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+AFCA .|    |    Session is authenticated as: nwanjari [Client.php:936]
+AFCA .|    <= ''
+AFCA .<= ''
+AFCA .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+AFCA .<= ''
+463E .START (2018-09-06 02:49:17) phpCAS-1.3.5 ****************** [CAS.php:468]
+463E .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+463E .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+463E .|    |    Session is authenticated as: nwanjari [Client.php:936]
+463E .|    <= ''
+463E .<= ''
+463E .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+463E .<= ''
+1065 .START (2018-09-06 02:51:21) phpCAS-1.3.5 ****************** [CAS.php:468]
+1065 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+1065 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+1065 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+1065 .|    <= ''
+1065 .<= ''
+1065 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+1065 .<= ''
+E9F8 .START (2018-09-06 02:55:36) phpCAS-1.3.5 ****************** [CAS.php:468]
+E9F8 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+E9F8 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+E9F8 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+E9F8 .|    <= ''
+E9F8 .<= ''
+E9F8 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+E9F8 .<= ''
+1E3B .START (2018-09-06 02:56:58) phpCAS-1.3.5 ****************** [CAS.php:468]
+1E3B .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+1E3B .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+1E3B .|    |    Session is authenticated as: nwanjari [Client.php:936]
+1E3B .|    <= ''
+1E3B .<= ''
+1E3B .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+1E3B .<= ''
+1680 .START (2018-09-06 02:58:12) phpCAS-1.3.5 ****************** [CAS.php:468]
+1680 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+1680 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+1680 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+1680 .|    <= ''
+1680 .<= ''
+1680 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+1680 .<= ''
+0749 .START (2018-09-06 02:59:36) phpCAS-1.3.5 ****************** [CAS.php:468]
+0749 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+0749 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+0749 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+0749 .|    <= ''
+0749 .<= ''
+0749 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+0749 .<= ''
+8A2F .START (2018-09-06 02:59:41) phpCAS-1.3.5 ****************** [CAS.php:468]
+8A2F .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+8A2F .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+8A2F .|    |    Session is authenticated as: nwanjari [Client.php:936]
+8A2F .|    <= ''
+8A2F .<= ''
+8A2F .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+8A2F .<= ''
+EAD2 .START (2018-09-06 03:00:18) phpCAS-1.3.5 ****************** [CAS.php:468]
+EAD2 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+EAD2 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+EAD2 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+EAD2 .|    <= ''
+EAD2 .<= ''
+EAD2 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+EAD2 .<= ''
+368D .START (2018-09-06 03:00:41) phpCAS-1.3.5 ****************** [CAS.php:468]
+368D .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+368D .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+368D .|    |    Session is authenticated as: nwanjari [Client.php:936]
+368D .|    <= ''
+368D .<= ''
+368D .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+368D .<= ''
+CC55 .START (2018-09-06 03:01:57) phpCAS-1.3.5 ****************** [CAS.php:468]
+CC55 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+CC55 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+CC55 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+CC55 .|    <= ''
+CC55 .<= ''
+CC55 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+CC55 .<= ''
+7507 .START (2018-09-06 03:02:45) phpCAS-1.3.5 ****************** [CAS.php:468]
+7507 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+7507 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+7507 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+7507 .|    <= ''
+7507 .<= ''
+7507 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+7507 .<= ''
+3212 .START (2018-09-06 03:03:01) phpCAS-1.3.5 ****************** [CAS.php:468]
+3212 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+3212 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+3212 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+3212 .|    <= ''
+3212 .<= ''
+3212 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+3212 .<= ''
+9CE8 .START (2018-09-06 03:03:26) phpCAS-1.3.5 ****************** [CAS.php:468]
+9CE8 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+9CE8 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+9CE8 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+9CE8 .|    <= ''
+9CE8 .<= ''
+9CE8 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+9CE8 .<= ''
+2F4D .START (2018-09-06 03:03:41) phpCAS-1.3.5 ****************** [CAS.php:468]
+2F4D .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+2F4D .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+2F4D .|    |    Session is authenticated as: nwanjari [Client.php:936]
+2F4D .|    <= ''
+2F4D .<= ''
+2F4D .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+2F4D .<= ''
+6C3A .START (2018-09-06 03:04:42) phpCAS-1.3.5 ****************** [CAS.php:468]
+6C3A .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+6C3A .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+6C3A .|    |    Session is authenticated as: nwanjari [Client.php:936]
+6C3A .|    <= ''
+6C3A .<= ''
+6C3A .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+6C3A .<= ''
+8896 .START (2018-09-06 03:05:30) phpCAS-1.3.5 ****************** [CAS.php:468]
+8896 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+8896 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+8896 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+8896 .|    <= ''
+8896 .<= ''
+8896 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+8896 .<= ''
+CB8F .START (2018-09-06 03:09:31) phpCAS-1.3.5 ****************** [CAS.php:468]
+CB8F .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+CB8F .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+CB8F .|    |    Session is authenticated as: nwanjari [Client.php:936]
+CB8F .|    <= ''
+CB8F .<= ''
+CB8F .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+CB8F .<= ''
+4974 .START (2018-09-07 16:49:07) phpCAS-1.3.5 ****************** [CAS.php:468]
+4974 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+4974 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+4974 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+4974 .|    <= ''
+4974 .<= ''
+4974 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+4974 .<= ''
+3766 .START (2018-09-07 16:49:10) phpCAS-1.3.5 ****************** [CAS.php:468]
+3766 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+3766 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+3766 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+3766 .|    <= ''
+3766 .<= ''
+3766 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+3766 .<= ''
+0100 .START (2018-09-07 17:07:33) phpCAS-1.3.5 ****************** [CAS.php:468]
+0100 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+0100 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+0100 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+0100 .|    <= ''
+0100 .<= ''
+0100 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+0100 .<= ''
+DDC9 .START (2018-09-07 17:07:40) phpCAS-1.3.5 ****************** [CAS.php:468]
+DDC9 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+DDC9 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+DDC9 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+DDC9 .|    <= ''
+DDC9 .<= ''
+DDC9 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+DDC9 .<= ''
+ED8E .START (2018-09-07 17:07:43) phpCAS-1.3.5 ****************** [CAS.php:468]
+ED8E .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+ED8E .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+ED8E .|    |    Session is authenticated as: nwanjari [Client.php:936]
+ED8E .|    <= ''
+ED8E .<= ''
+ED8E .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+ED8E .<= ''
+01AB .START (2018-09-07 17:08:44) phpCAS-1.3.5 ****************** [CAS.php:468]
+01AB .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+01AB .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+01AB .|    |    Session is authenticated as: nwanjari [Client.php:936]
+01AB .|    <= ''
+01AB .<= ''
+01AB .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+01AB .<= ''
+0917 .START (2018-09-07 17:08:48) phpCAS-1.3.5 ****************** [CAS.php:468]
+0917 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+0917 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+0917 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+0917 .|    <= ''
+0917 .<= ''
+0917 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+0917 .<= ''
+89B0 .START (2018-09-07 17:09:07) phpCAS-1.3.5 ****************** [CAS.php:468]
+89B0 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+89B0 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+89B0 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+89B0 .|    <= ''
+89B0 .<= ''
+89B0 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+89B0 .<= ''
+B1E0 .START (2018-09-07 17:09:47) phpCAS-1.3.5 ****************** [CAS.php:468]
+B1E0 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+B1E0 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+B1E0 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+B1E0 .|    <= ''
+B1E0 .<= ''
+B1E0 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+B1E0 .<= ''
+CB41 .START (2018-09-07 17:10:12) phpCAS-1.3.5 ****************** [CAS.php:468]
+CB41 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+CB41 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+CB41 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+CB41 .|    <= ''
+CB41 .<= ''
+CB41 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+CB41 .<= ''
+9107 .START (2018-09-07 17:10:49) phpCAS-1.3.5 ****************** [CAS.php:468]
+9107 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+9107 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+9107 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+9107 .|    <= ''
+9107 .<= ''
+9107 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+9107 .<= ''
+5EA1 .START (2018-09-07 17:11:13) phpCAS-1.3.5 ****************** [CAS.php:468]
+5EA1 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+5EA1 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+5EA1 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+5EA1 .|    <= ''
+5EA1 .<= ''
+5EA1 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+5EA1 .<= ''
+7BC4 .START (2018-09-07 17:11:34) phpCAS-1.3.5 ****************** [CAS.php:468]
+7BC4 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+7BC4 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+7BC4 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+7BC4 .|    <= ''
+7BC4 .<= ''
+7BC4 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+7BC4 .<= ''
+B9E7 .START (2018-09-07 17:12:52) phpCAS-1.3.5 ****************** [CAS.php:468]
+B9E7 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+B9E7 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+B9E7 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+B9E7 .|    <= ''
+B9E7 .<= ''
+B9E7 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+B9E7 .<= ''
+5379 .START (2018-09-07 17:13:02) phpCAS-1.3.5 ****************** [CAS.php:468]
+5379 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+5379 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+5379 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+5379 .|    <= ''
+5379 .<= ''
+5379 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+5379 .<= ''
+34EB .START (2018-09-07 17:33:28) phpCAS-1.3.5 ****************** [CAS.php:468]
+34EB .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+34EB .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+34EB .|    |    Session is authenticated as: nwanjari [Client.php:936]
+34EB .|    <= ''
+34EB .<= ''
+34EB .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+34EB .<= ''
+0C90 .START (2018-09-07 17:35:09) phpCAS-1.3.5 ****************** [CAS.php:468]
+0C90 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+0C90 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+0C90 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+0C90 .|    <= ''
+0C90 .<= ''
+0C90 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+0C90 .<= ''
+A885 .START (2018-09-07 17:35:12) phpCAS-1.3.5 ****************** [CAS.php:468]
+A885 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+A885 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+A885 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+A885 .|    <= ''
+A885 .<= ''
+A885 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+A885 .<= ''
+CBDA .START (2018-09-07 17:37:03) phpCAS-1.3.5 ****************** [CAS.php:468]
+CBDA .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+CBDA .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+CBDA .|    |    Session is authenticated as: nwanjari [Client.php:936]
+CBDA .|    <= ''
+CBDA .<= ''
+CBDA .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+CBDA .<= ''
+20AA .START (2018-09-07 17:37:10) phpCAS-1.3.5 ****************** [CAS.php:468]
+20AA .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+20AA .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+20AA .|    |    Session is authenticated as: nwanjari [Client.php:936]
+20AA .|    <= ''
+20AA .<= ''
+20AA .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+20AA .<= ''
+47B1 .START (2018-09-07 18:23:07) phpCAS-1.3.5 ****************** [CAS.php:468]
+47B1 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+47B1 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+47B1 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+47B1 .|    <= ''
+47B1 .<= ''
+47B1 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+47B1 .<= ''
+F2D8 .START (2018-09-07 18:23:17) phpCAS-1.3.5 ****************** [CAS.php:468]
+F2D8 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+F2D8 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+F2D8 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+F2D8 .|    <= ''
+F2D8 .<= ''
+F2D8 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+F2D8 .<= ''
+CEE7 .START (2018-09-07 18:23:19) phpCAS-1.3.5 ****************** [CAS.php:468]
+CEE7 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+CEE7 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+CEE7 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+CEE7 .|    <= ''
+CEE7 .<= ''
+CEE7 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+CEE7 .<= ''
+ACE0 .START (2018-09-07 18:23:23) phpCAS-1.3.5 ****************** [CAS.php:468]
+ACE0 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+ACE0 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+ACE0 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+ACE0 .|    <= ''
+ACE0 .<= ''
+ACE0 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+ACE0 .<= ''
+7D98 .START (2018-09-07 18:23:24) phpCAS-1.3.5 ****************** [CAS.php:468]
+7D98 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+7D98 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+7D98 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+7D98 .|    <= ''
+7D98 .<= ''
+7D98 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+7D98 .<= ''
+7ACA .START (2018-09-07 18:23:29) phpCAS-1.3.5 ****************** [CAS.php:468]
+7ACA .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+7ACA .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+7ACA .|    |    Session is authenticated as: nwanjari [Client.php:936]
+7ACA .|    <= ''
+7ACA .<= ''
+7ACA .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+7ACA .<= ''
+D9CA .START (2018-09-07 18:23:34) phpCAS-1.3.5 ****************** [CAS.php:468]
+D9CA .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+D9CA .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+D9CA .|    |    Session is authenticated as: nwanjari [Client.php:936]
+D9CA .|    <= ''
+D9CA .<= ''
+D9CA .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+D9CA .<= ''
+EEE1 .START (2018-09-07 18:24:21) phpCAS-1.3.5 ****************** [CAS.php:468]
+EEE1 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+EEE1 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+EEE1 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+EEE1 .|    <= ''
+EEE1 .<= ''
+EEE1 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+EEE1 .<= ''
+0A5B .START (2018-09-07 18:24:42) phpCAS-1.3.5 ****************** [CAS.php:468]
+0A5B .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+0A5B .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+0A5B .|    |    Session is authenticated as: nwanjari [Client.php:936]
+0A5B .|    <= ''
+0A5B .<= ''
+0A5B .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+0A5B .<= ''
+6B0A .START (2018-09-07 18:24:44) phpCAS-1.3.5 ****************** [CAS.php:468]
+6B0A .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+6B0A .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+6B0A .|    |    Session is authenticated as: nwanjari [Client.php:936]
+6B0A .|    <= ''
+6B0A .<= ''
+6B0A .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+6B0A .<= ''
+C067 .START (2018-09-07 18:26:42) phpCAS-1.3.5 ****************** [CAS.php:468]
+C067 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+C067 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+C067 .|    |    Session is not authenticated [Client.php:938]
+C067 .|    <= ''
+C067 .<= ''
+C067 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+C067 .<= ''
+D108 .START (2018-09-07 18:35:27) phpCAS-1.3.5 ****************** [CAS.php:468]
+D108 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+D108 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+D108 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+D108 .|    <= ''
+D108 .<= ''
+D108 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+D108 .<= ''
+6A96 .START (2018-09-07 18:43:26) phpCAS-1.3.5 ****************** [CAS.php:468]
+6A96 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+6A96 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+6A96 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+6A96 .|    <= ''
+6A96 .<= ''
+6A96 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+6A96 .<= ''
+91DE .START (2018-09-07 18:47:35) phpCAS-1.3.5 ****************** [CAS.php:468]
+91DE .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+91DE .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+91DE .|    |    Session is authenticated as: nwanjari [Client.php:936]
+91DE .|    <= ''
+91DE .<= ''
+91DE .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+91DE .<= ''
+92C2 .START (2018-09-07 18:47:42) phpCAS-1.3.5 ****************** [CAS.php:468]
+92C2 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+92C2 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+92C2 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+92C2 .|    <= ''
+92C2 .<= ''
+92C2 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+92C2 .<= ''
+9762 .START (2018-09-07 18:47:44) phpCAS-1.3.5 ****************** [CAS.php:468]
+9762 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+9762 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+9762 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+9762 .|    <= ''
+9762 .<= ''
+9762 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+9762 .<= ''
+9FF3 .START (2018-09-07 18:47:47) phpCAS-1.3.5 ****************** [CAS.php:468]
+9FF3 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+9FF3 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+9FF3 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+9FF3 .|    <= ''
+9FF3 .<= ''
+9FF3 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+9FF3 .<= ''
+AD05 .START (2018-09-07 18:47:55) phpCAS-1.3.5 ****************** [CAS.php:468]
+AD05 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+AD05 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+AD05 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+AD05 .|    <= ''
+AD05 .<= ''
+AD05 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+AD05 .<= ''
+A868 .START (2018-09-07 18:47:57) phpCAS-1.3.5 ****************** [CAS.php:468]
+A868 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+A868 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+A868 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+A868 .|    <= ''
+A868 .<= ''
+A868 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+A868 .<= ''
+72AC .START (2018-09-07 18:48:00) phpCAS-1.3.5 ****************** [CAS.php:468]
+72AC .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+72AC .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+72AC .|    |    Session is authenticated as: nwanjari [Client.php:936]
+72AC .|    <= ''
+72AC .<= ''
+72AC .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+72AC .<= ''
+527D .START (2018-09-07 18:48:02) phpCAS-1.3.5 ****************** [CAS.php:468]
+527D .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+527D .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+527D .|    |    Session is authenticated as: nwanjari [Client.php:936]
+527D .|    <= ''
+527D .<= ''
+527D .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+527D .<= ''
+112F .START (2018-09-07 18:48:06) phpCAS-1.3.5 ****************** [CAS.php:468]
+112F .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+112F .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+112F .|    |    Session is authenticated as: nwanjari [Client.php:936]
+112F .|    <= ''
+112F .<= ''
+112F .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+112F .<= ''
+5313 .START (2018-09-07 18:48:23) phpCAS-1.3.5 ****************** [CAS.php:468]
+5313 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+5313 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+5313 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+5313 .|    <= ''
+5313 .<= ''
+5313 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+5313 .<= ''
+1DDF .START (2018-09-07 18:48:26) phpCAS-1.3.5 ****************** [CAS.php:468]
+1DDF .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+1DDF .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+1DDF .|    |    Session is authenticated as: nwanjari [Client.php:936]
+1DDF .|    <= ''
+1DDF .<= ''
+1DDF .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+1DDF .<= ''
+9900 .START (2018-09-07 18:48:36) phpCAS-1.3.5 ****************** [CAS.php:468]
+9900 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+9900 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+9900 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+9900 .|    <= ''
+9900 .<= ''
+9900 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+9900 .<= ''
+4725 .START (2018-09-07 18:48:39) phpCAS-1.3.5 ****************** [CAS.php:468]
+4725 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+4725 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+4725 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+4725 .|    <= ''
+4725 .<= ''
+4725 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+4725 .<= ''
+7360 .START (2018-09-07 18:48:40) phpCAS-1.3.5 ****************** [CAS.php:468]
+7360 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+7360 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+7360 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+7360 .|    <= ''
+7360 .<= ''
+7360 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+7360 .<= ''
+B130 .START (2018-09-07 18:48:41) phpCAS-1.3.5 ****************** [CAS.php:468]
+B130 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+B130 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+B130 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+B130 .|    <= ''
+B130 .<= ''
+B130 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+B130 .<= ''
+6BF4 .START (2018-09-07 18:50:07) phpCAS-1.3.5 ****************** [CAS.php:468]
+6BF4 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+6BF4 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+6BF4 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+6BF4 .|    <= ''
+6BF4 .<= ''
+6BF4 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+6BF4 .<= ''
+3A53 .START (2018-09-07 18:50:32) phpCAS-1.3.5 ****************** [CAS.php:468]
+3A53 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+3A53 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+3A53 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+3A53 .|    <= ''
+3A53 .<= ''
+3A53 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+3A53 .<= ''
+5F37 .START (2018-09-07 18:50:48) phpCAS-1.3.5 ****************** [CAS.php:468]
+5F37 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+5F37 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+5F37 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+5F37 .|    <= ''
+5F37 .<= ''
+5F37 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+5F37 .<= ''
+BF20 .START (2018-09-07 18:51:07) phpCAS-1.3.5 ****************** [CAS.php:468]
+BF20 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+BF20 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+BF20 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+BF20 .|    <= ''
+BF20 .<= ''
+BF20 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+BF20 .<= ''
+5369 .START (2018-09-07 19:57:23) phpCAS-1.3.5 ****************** [CAS.php:468]
+5369 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+5369 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+5369 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+5369 .|    <= ''
+5369 .<= ''
+5369 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+5369 .<= ''
+8958 .START (2018-09-07 19:57:32) phpCAS-1.3.5 ****************** [CAS.php:468]
+8958 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+8958 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+8958 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+8958 .|    <= ''
+8958 .<= ''
+8958 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+8958 .<= ''
+D5F7 .START (2018-09-07 19:57:34) phpCAS-1.3.5 ****************** [CAS.php:468]
+D5F7 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+D5F7 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+D5F7 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+D5F7 .|    <= ''
+D5F7 .<= ''
+D5F7 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+D5F7 .<= ''
+5A7D .START (2018-09-07 19:57:54) phpCAS-1.3.5 ****************** [CAS.php:468]
+5A7D .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+5A7D .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+5A7D .|    |    Session is authenticated as: nwanjari [Client.php:936]
+5A7D .|    <= ''
+5A7D .<= ''
+5A7D .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+5A7D .<= ''
+8203 .START (2018-09-07 19:59:56) phpCAS-1.3.5 ****************** [CAS.php:468]
+8203 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+8203 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+8203 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+8203 .|    <= ''
+8203 .<= ''
+8203 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+8203 .<= ''
+DFBB .START (2018-09-07 20:00:18) phpCAS-1.3.5 ****************** [CAS.php:468]
+DFBB .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+DFBB .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+DFBB .|    |    Session is authenticated as: nwanjari [Client.php:936]
+DFBB .|    <= ''
+DFBB .<= ''
+DFBB .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+DFBB .<= ''
+3056 .START (2018-09-07 20:00:46) phpCAS-1.3.5 ****************** [CAS.php:468]
+3056 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+3056 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+3056 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+3056 .|    <= ''
+3056 .<= ''
+3056 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+3056 .<= ''
+9D49 .START (2018-09-07 20:01:07) phpCAS-1.3.5 ****************** [CAS.php:468]
+9D49 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+9D49 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+9D49 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+9D49 .|    <= ''
+9D49 .<= ''
+9D49 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+9D49 .<= ''
+2268 .START (2018-09-07 20:11:03) phpCAS-1.3.5 ****************** [CAS.php:468]
+2268 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+2268 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+2268 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+2268 .|    <= ''
+2268 .<= ''
+2268 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+2268 .<= ''
+2B71 .START (2018-09-07 20:11:14) phpCAS-1.3.5 ****************** [CAS.php:468]
+2B71 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+2B71 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+2B71 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+2B71 .|    <= ''
+2B71 .<= ''
+2B71 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+2B71 .<= ''
+0423 .START (2018-09-07 20:11:33) phpCAS-1.3.5 ****************** [CAS.php:468]
+0423 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+0423 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+0423 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+0423 .|    <= ''
+0423 .<= ''
+0423 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+0423 .<= ''
+3871 .START (2018-09-07 20:12:02) phpCAS-1.3.5 ****************** [CAS.php:468]
+3871 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+3871 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+3871 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+3871 .|    <= ''
+3871 .<= ''
+3871 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+3871 .<= ''
+F7C4 .START (2018-09-07 20:13:29) phpCAS-1.3.5 ****************** [CAS.php:468]
+F7C4 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+F7C4 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+F7C4 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+F7C4 .|    <= ''
+F7C4 .<= ''
+F7C4 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+F7C4 .<= ''
+5411 .START (2018-09-07 20:14:47) phpCAS-1.3.5 ****************** [CAS.php:468]
+5411 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+5411 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+5411 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+5411 .|    <= ''
+5411 .<= ''
+5411 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+5411 .<= ''
+EEC6 .START (2018-09-07 20:14:50) phpCAS-1.3.5 ****************** [CAS.php:468]
+EEC6 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+EEC6 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+EEC6 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+EEC6 .|    <= ''
+EEC6 .<= ''
+EEC6 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+EEC6 .<= ''
+E463 .START (2018-09-07 20:14:57) phpCAS-1.3.5 ****************** [CAS.php:468]
+E463 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+E463 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+E463 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+E463 .|    <= ''
+E463 .<= ''
+E463 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+E463 .<= ''
+896D .START (2018-09-07 20:15:26) phpCAS-1.3.5 ****************** [CAS.php:468]
+896D .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+896D .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+896D .|    |    Session is authenticated as: nwanjari [Client.php:936]
+896D .|    <= ''
+896D .<= ''
+896D .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+896D .<= ''
+4378 .START (2018-09-07 20:16:26) phpCAS-1.3.5 ****************** [CAS.php:468]
+4378 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+4378 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+4378 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+4378 .|    <= ''
+4378 .<= ''
+4378 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+4378 .<= ''
+41DE .START (2018-09-07 20:16:30) phpCAS-1.3.5 ****************** [CAS.php:468]
+41DE .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+41DE .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+41DE .|    |    Session is authenticated as: nwanjari [Client.php:936]
+41DE .|    <= ''
+41DE .<= ''
+41DE .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+41DE .<= ''
+4500 .START (2018-09-07 20:16:35) phpCAS-1.3.5 ****************** [CAS.php:468]
+4500 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+4500 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+4500 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+4500 .|    <= ''
+4500 .<= ''
+4500 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+4500 .<= ''
+79D6 .START (2018-09-07 20:16:45) phpCAS-1.3.5 ****************** [CAS.php:468]
+79D6 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+79D6 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+79D6 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+79D6 .|    <= ''
+79D6 .<= ''
+79D6 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+79D6 .<= ''
+8F7E .START (2018-09-07 20:16:48) phpCAS-1.3.5 ****************** [CAS.php:468]
+8F7E .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+8F7E .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+8F7E .|    |    Session is authenticated as: nwanjari [Client.php:936]
+8F7E .|    <= ''
+8F7E .<= ''
+8F7E .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+8F7E .<= ''
+4CE8 .START (2018-09-11 16:48:26) phpCAS-1.3.5 ****************** [CAS.php:468]
+4CE8 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+4CE8 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+4CE8 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+4CE8 .|    <= ''
+4CE8 .<= ''
+4CE8 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+4CE8 .<= ''
+54D6 .START (2018-09-11 16:48:28) phpCAS-1.3.5 ****************** [CAS.php:468]
+54D6 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+54D6 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+54D6 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+54D6 .|    <= ''
+54D6 .<= ''
+54D6 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+54D6 .<= ''
+E424 .START (2018-09-11 16:49:41) phpCAS-1.3.5 ****************** [CAS.php:468]
+E424 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+E424 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+E424 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+E424 .|    <= ''
+E424 .<= ''
+E424 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+E424 .<= ''
+0D31 .START (2018-09-11 16:50:07) phpCAS-1.3.5 ****************** [CAS.php:468]
+0D31 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+0D31 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+0D31 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+0D31 .|    <= ''
+0D31 .<= ''
+0D31 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+0D31 .<= ''
+4042 .START (2018-09-11 16:50:31) phpCAS-1.3.5 ****************** [CAS.php:468]
+4042 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+4042 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+4042 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+4042 .|    <= ''
+4042 .<= ''
+4042 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+4042 .<= ''
+EA54 .START (2018-09-11 16:50:42) phpCAS-1.3.5 ****************** [CAS.php:468]
+EA54 .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+EA54 .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+EA54 .|    |    Session is authenticated as: nwanjari [Client.php:936]
+EA54 .|    <= ''
+EA54 .<= ''
+EA54 .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+EA54 .<= ''
+B43F .START (2018-09-11 16:50:45) phpCAS-1.3.5 ****************** [CAS.php:468]
+B43F .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+B43F .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+B43F .|    |    Session is authenticated as: nwanjari [Client.php:936]
+B43F .|    <= ''
+B43F .<= ''
+B43F .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+B43F .<= ''
+4E3B .START (2018-09-11 16:50:50) phpCAS-1.3.5 ****************** [CAS.php:468]
+4E3B .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+4E3B .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+4E3B .|    |    Session is authenticated as: nwanjari [Client.php:936]
+4E3B .|    <= ''
+4E3B .<= ''
+4E3B .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+4E3B .<= ''
+BC0A .START (2018-09-11 16:50:54) phpCAS-1.3.5 ****************** [CAS.php:468]
+BC0A .=> phpCAS::client('2.0', 'cas.tamu.edu', 443, '/cas', false) [tamu_cas_client.php:32]
+BC0A .|    => CAS_Client::__construct('2.0', false, 'cas.tamu.edu', 443, '/cas', false) [CAS.php:360]
+BC0A .|    |    Session is authenticated as: nwanjari [Client.php:936]
+BC0A .|    <= ''
+BC0A .<= ''
+BC0A .=> phpCAS::setCasServerCACert('C:\\wamp64\\sacnet_framework/cas/incommon_sha384_ca_bundle.crt') [tamu_cas_client.php:33]
+BC0A .<= ''
