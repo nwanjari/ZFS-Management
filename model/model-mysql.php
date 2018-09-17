@@ -81,7 +81,8 @@ class admin_model {
 	# Get all the physical disks available with all details
 	public function getAllPhysicalDisks() {
         try {
-            $stmt = $this->db->prepare('SELECT * from SN_ADMIN_ZFS_Physical_Disk');
+            $stmt = $this->db->prepare('SELECT * FROM SN_ADMIN_ZFS_Physical_Disk pd, SN_ADMIN_ZFS_PhysicalDisk_JBOD pdjb 
+										WHERE pd.pd_gpt_id = pdjb.pd_gpt_id');
             $stmt->execute();
             return $stmt->fetchAll();
         }
@@ -134,6 +135,20 @@ class admin_model {
 			die(err_fce("ERROR CODE : " . $e->getMessage()));
 		} 
 	}
+
+		# Delete a physical disk entry with given Disk GPT ID
+		public function deletePhysicalDiskFromJBOD($pdGptID) {
+			if ($pdGptID == null) return false;
+			try {
+				$stmt = $this->db->prepare('DELETE FROM SN_ADMIN_ZFS_PhysicalDisk_JBOD 
+											WHERE pd_gpt_id=:pdGptID');
+				$parms = ['pdGptID' => $pdGptID ];
+				return $stmt->execute($parms);
+			}
+			catch (PDOException $e) {
+				die(err_fce("ERROR CODE : " . $e->getMessage()));
+			} 
+		}
 
 	# Get details of all Zpools with their JBOD details
 	public function listallZpoolJBOD() {
@@ -229,6 +244,27 @@ class admin_model {
 		catch (PDOException $e) {
 			die(err_fce("ERROR CODE : " . $e->getMessage()));
 		}
+	}
+
+	# Map Physical Disks with JBOD
+	public function addPhysicalDiskJBOD($pdGptID, $jbID, $installDate, $coordinates) {
+		if ($pdGptID == null) return false;
+		if ($jbID == null) return false;
+		if ($coordinates == null) return false;
+		
+		try {
+			$stmt = $this->db->prepare('INSERT INTO SN_ADMIN_ZFS_PhysicalDisk_JBOD (pd_gpt_id, jb_id, pdjb_installation_date, pdjb_coordinates)
+										VALUES (:pdGptID, :jbID, :installDate, :coordinates)');
+			$parms = [ 'pdGptID'    =>$pdGptID,
+					   'jbID'  =>$jbID, 
+					   'installDate'    =>$installDate, 
+					   'coordinates'    =>$coordinates
+			];
+			return $stmt->execute($parms);
+		}
+		catch (PDOException $e) {
+			die(err_fce("ERROR CODE : " . $e->getMessage()));
+		} 
 	}
 	
 }

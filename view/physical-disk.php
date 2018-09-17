@@ -59,6 +59,9 @@ else {
 <!-- Trigger the modal to add new physical disk-->
 <button type="submit" class="btn btn-sacnet btn-outline-danger btn-lg" data-toggle="modal" data-target="#addNewPhysicalDisk">Add New Physical Disk</button>
 
+<!-- Trigger the modal to upload csv file to add multiple physical disks-->
+<button type="submit" class="btn btn-sacnet btn-outline-danger btn-lg" data-toggle="modal" data-target="#uploadCsv">Upload CSV File</button>
+
 <!-- Return to Apps Home Button -->
 <a href="/sn-admin/apps/zfs-management/" class="btn btn-sacnet btn-outline-danger btn-lg">Return to Apps Home</a>
 </div>
@@ -77,7 +80,10 @@ else {
       <th> Type </th>
       <th> Purchase Date </th>
       <th> Status </th> 
-      <th> Vdev ID </th>       
+      <th> Vdev ID </th>
+      <th> JDOB </th>
+      <th> Installation Date </th> 
+      <th> Co-ordinates </th>        
     </tr>
   </thead>
   <tbody>
@@ -95,6 +101,9 @@ else {
       <td>'.$disk['pd_purchase_date'].'</td>
       <td>'.$disk['pd_status'].'</td>
       <td>'.$disk['vd_id'].'</td>
+      <td>'.$disk['jb_id'].'</td>
+      <td>'.$disk['pdjb_installation_date'].'</td>
+      <td>'.$disk['pdjb_coordinates'].'</td>
     </tr>';    
   }
   ?>    
@@ -160,6 +169,29 @@ else {
       <div class="modal-footer">
         <button type="submit" class="btn btn-sacnet btn-outline-danger" >Add</button>
         <input type="hidden" name="action-method" id="action-method" value="_ADD_DISK"/>
+      </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Modal: Upload Csv file-->
+<div id="uploadCsv" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal Content -->
+    <div class="modal-content">
+      <form name="form-uploadCsv" action="../control/control-physical-disk.php" method="POST" enctype="multipart/form-data">
+      <div class="modal-header">
+        <h4 class="modal-title">Add Physical Disks from CSV File</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p> Upload CSV File: <input type="file" name="file" required/> </p>
+      </div>
+      <div class="modal-footer">
+        <button type="submit" class="btn btn-sacnet btn-outline-danger">Import</button>
+        <input type="hidden" name="action-method" id="action-method" value="_UPLOAD_CSV"/>
       </div>
       </form>
     </div>
