@@ -48,10 +48,17 @@ require_once($_SERVER["DOCUMENT_ROOT"].'/sn-admin/menu/build.php');
  </div>
  </div>
 
-  <div class="card">
+ <div class="card">
  <div class="card-body">
   <h4 class="card-title"><a class="maroon" href ="view/list-zpool.php"><i class="fas fa-coins" aria-hidden="true"></i> ZPool Details</a></h4>
   <p class="card-text"> See ZPool Details.</p>
+ </div>
+ </div>
+
+  <div class="card">
+ <div class="card-body">
+  <h4 class="card-title"><a class="maroon" href ="view/status-dashboard.php"><i class="fas fa-clipboard-check" aria-hidden="true"></i> Status Dashboard</a></h4>
+  <p class="card-text"> View elements which need attention.</p>
  </div>
  </div>
 

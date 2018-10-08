@@ -266,6 +266,73 @@ class admin_model {
 			die(err_fce("ERROR CODE : " . $e->getMessage()));
 		} 
 	}
+
+	# Get Vdevs with Critical status
+	public function getCriticalVdevs() {
+		try {
+			$stmt = $this->db->prepare('SELECT * from SN_ADMIN_ZFS_VDev 
+										WHERE vd_status="OFFLINE"');
+			$stmt->execute();
+			return $stmt->fetchAll();
+		}
+		catch (PDOException $e) {
+			die(err_fce("ERROR CODE : " . $e->getMessage()));
+		}
+	}
 	
+	# Get Physical Disks with Failed status
+	public function getFailedDisks() {
+		try {
+			$stmt = $this->db->prepare('SELECT * from SN_ADMIN_ZFS_Physical_Disk 
+										WHERE pd_status="Failed"');
+			$stmt->execute();
+			return $stmt->fetchAll();
+		}
+		catch (PDOException $e) {
+			die(err_fce("ERROR CODE : " . $e->getMessage()));
+		}
+	}
+
+	# Get Failed Disks Count in Vdev
+	public function getVdevFailedDisksCount() {
+		try {
+			$stmt = $this->db->prepare('SELECT vd_id,count(vd_id) FROM SN_ADMIN_ZFS_Physical_Disk 
+										WHERE pd_status="Failed" GROUP BY vd_id ORDER BY vd_id');
+			$stmt->execute();
+			return $stmt->fetchAll();
+		}
+		catch (PDOException $e) {
+			die(err_fce("ERROR CODE : " . $e->getMessage()));
+		}
+	} 
+
+	# Get Total Disks Count in Vdev
+	public function getVdevDisksCount($vdevID) {
+		try {
+			$stmt = $this->db->prepare('SELECT count(vd_id) FROM SN_ADMIN_ZFS_Physical_Disk
+										WHERE vd_id=:vdevID');
+			$parms = ['vdevID' => $vdevID ];
+			$stmt->execute($parms);
+			return $stmt->fetch();
+		}
+		catch (PDOException $e) {
+			die(err_fce("ERROR CODE : " . $e->getMessage()));
+		}
+	}
+
+	# Get Vdev Details
+	public function getVdevDetails($vdevIDs) {
+		if ($vdevIDs== null) return false;
+		$vdevs = implode(',',$vdevIDs);
+		try {
+			$stmt = $this->db->prepare('SELECT * FROM SN_ADMIN_ZFS_VDev 
+										WHERE vd_id IN ('.$vdevs.')');
+			$stmt->execute();
+			return $stmt->fetchAll();
+		}
+		catch (PDOException $e) {
+			die(err_fce("ERROR CODE : " . $e->getMessage()));
+		}
+	} 
 }
 ?>
